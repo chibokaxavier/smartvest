@@ -2,7 +2,7 @@
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 import { CiMenuFries } from "react-icons/ci";
-// import { Sidebar } from "primereact/sidebar";
+import { Sidebar } from "primereact/sidebar";
 import { useState } from "react";
 
 const MobileNav = () => {
@@ -32,12 +32,13 @@ const MobileNav = () => {
   const [visible, setVisible] = useState(false);
   return (
     <>
-      <CiMenuFries
-        onClick={() => setVisible(true)}
-        className="text-[25px]"
-      />
-      {/* <Sidebar visible={visible} position="right"  onHide={() => setVisible(false)}> */}
-        {/* <div className="mt-32 mb-40 text-center text-2xl">
+      <CiMenuFries onClick={() => setVisible(true)} className="text-[25px]" />
+      <Sidebar
+        visible={visible}
+        position="right"
+        onHide={() => setVisible(false)}
+      >
+        <div className="mt-32 mb-40 text-center text-2xl">
           <Link href={"/"}>
             <h1 className="tetx-4xl font-semibold">
               Delidish<span className="text-accent">.</span>
@@ -59,8 +60,8 @@ const MobileNav = () => {
               </Link>
             );
           })}
-        </nav> */}
-      {/* </Sidebar> */}
+        </nav>
+      </Sidebar>
     </>
   );
 };

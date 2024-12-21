@@ -33,7 +33,7 @@ const Nav = () => {
             key={index}
             className={`${
               link.path === pathName &&
-              "text-gray-700 border-b-2 border-gray-700"
+              "text-gray-500"
             }  font-medium hover:text-gray-700 transition-all relative  uppercase  after:absolute after:-bottom-0.5 after:left-0 after:h-[2px] after:w-full after:origin-bottom-right after:scale-x-0 after:bg-neutral-800 after:transition-transform after:duration-300 after:ease-[cubic-bezier(0.65_0.05_0.36_1)] hover:after:origin-bottom-left hover:after:scale-x-100 dark:after:bg-gray-700 cursor-pointer`}
           >
             {link.name}
