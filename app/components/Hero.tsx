@@ -1,12 +1,14 @@
 import Image from "next/image";
 import React from "react";
 import ExtraLogos from "./ExtraLogos";
+import BackgroundDesign from "./BackgroundDesign";
+import PhoneFrame from "./PhoneFrame";
 
 const Hero = () => {
   return (
     <section
       id="Home"
-      className="overflow-hidden py-20 sm:py-32 lg:pb-32 xl:pb-3"
+      className="overflow-hidden py-20 sm:py-32 lg:pb-32 xl:pb-3 "
     >
       <div className="lg:grid lg:grid-cols-12 lg:gap-x-8 lg:gap-y-20">
         <div className="relative z-10 mx-auto max-w-2xl lg:col-span-7 lg:max-w-none lg:pt-6 xl:col-span-6">
@@ -30,7 +32,12 @@ const Hero = () => {
             />
           </div>
         </div>
-        <div></div>
+        <div className="relative mt-10 sm:mt-20 lg:col-span-5 lg:row-span-2 lg:mt-0 xl:col-span-6">
+          <BackgroundDesign />
+          <div>
+            <PhoneFrame priority>gh</PhoneFrame>
+          </div>
+        </div>
         <ExtraLogos />
       </div>
     </section>
