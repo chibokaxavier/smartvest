@@ -3,6 +3,7 @@ import React from "react";
 import ExtraLogos from "./ExtraLogos";
 import BackgroundDesign from "./BackgroundDesign";
 import PhoneFrame from "./PhoneFrame";
+import AppFeature from "./AppFeature";
 
 const Hero = () => {
   return (
@@ -36,7 +37,7 @@ const Hero = () => {
           <BackgroundDesign />
           <div className="-mx-4 h-[448px] px-9 [mask-image:linear-gradient(to_bottom,white_60%,transparent)] sm:mx-0 lg:absolute lg:-inset-x-10 lg:-bottom-20 lg:-top-10 lg:h-auto lg:px-0 lg:pt-10 xl:-bottom-32">
             <PhoneFrame priority>
-hj
+              <AppFeature />
             </PhoneFrame>
           </div>
         </div>
