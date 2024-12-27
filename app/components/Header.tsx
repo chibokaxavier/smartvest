@@ -6,7 +6,7 @@ import Nav from "./Nav";
 
 const Header = () => {
   return (
-    <header className="">
+    <header className="max-w-screen-xl mx-auto px-4  py-5 sm:px-6 lg:px-8">
       <div className=" flex justify-between items-center">
         <Link href={"/"}>
           <h1 className="md:text-4xl text-2xl font-semibold text-gray-700">

@@ -4,7 +4,7 @@ import TextField from "./TextField";
 
 const Footer = () => {
   return (
-    <footer>
+    <footer className="max-w-screen-xl mx-auto px-4  py-5 sm:px-6 lg:px-8">
       <div className="flex flex-col items-center border-t border-gray-200 pb-12 pt-8 md:flex-row md:justify-between md:pt-6 ">
         <p>&copy; Copywright {new Date().getFullYear()}. All rights reserved</p>
         <div className="w-full flex justify-center md:w-auto mt-6 md:mt-0">

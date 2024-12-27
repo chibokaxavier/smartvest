@@ -10,9 +10,9 @@ const AppScreen = ({ children, className, ...props }) => {
         <TbMenu2 className="text-xl text-white" />
         <span className="flex gap-2 items-center justify-center">
           {" "}
-          <TbBusinessplan className="md:text-5xl text-4xl " />{" "}
-          <span className="">SmartVest</span>
-          <span className="text-">.</span>
+          <TbBusinessplan className="md:text-5xl text-4xl text-white" />{" "}
+          <span className="text-white">SmartVest</span>
+          <span className="text-white">.</span>
         </span>
         <FaUser className="text-xl text-white" />
       </div>

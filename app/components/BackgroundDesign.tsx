@@ -1,7 +1,7 @@
 import React, { useId } from "react";
-interface BackgroundDesignProps {
-  bgClass: string;
-}
+// interface BackgroundDesignProps {
+//   bgClass: string;
+// }
 
 const BackgroundDesign = () => {
   let id = useId();
