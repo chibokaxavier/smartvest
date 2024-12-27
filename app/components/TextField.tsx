@@ -12,6 +12,9 @@ interface TextFieldProps {
   label: string;
   className: string;
   type: string;
+  placeholder: string;
+  autoComplete: string;
+  required: boolean;
 }
 function Label({ id, children }: LabelProps) {
   return (
@@ -23,11 +26,25 @@ function Label({ id, children }: LabelProps) {
     </label>
   );
 }
-const TextField = ({ id, label, type = "text", className }: TextFieldProps) => {
+const TextField = ({
+  id,
+  label,
+  type = "text",
+  className,
+  placeholder,
+  autoComplete,
+  required,
+}: TextFieldProps) => {
   return (
     <div>
       {label && <Label id={id}>{label}</Label>}{" "}
-      <input type={type} className={formClasses} />
+      <input
+        type={type}
+        className={`${formClasses}  ${className}`}
+        placeholder={placeholder}
+        autoComplete={autoComplete}
+        required
+      />
     </div>
   );
 };

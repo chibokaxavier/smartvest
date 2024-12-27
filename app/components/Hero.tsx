@@ -13,7 +13,7 @@ const Hero = () => {
     >
       <div className="lg:grid lg:grid-cols-12 lg:gap-x-8 lg:gap-y-20">
         <div className="relative z-10 mx-auto max-w-2xl lg:col-span-7 lg:max-w-none lg:pt-6 xl:col-span-6">
-          <p className="text-4xl tracking-tight font-medium text-gray-900 text-center">
+          <p className="text-4xl tracking-tight font-medium text-gray-900 ">
             Start Your Investment Journey Today With SmartVest
           </p>
           <p className="mt-6 text-lg text-gray-600">
