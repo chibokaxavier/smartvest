@@ -4,6 +4,7 @@ import "./globals.css";
 import Header from "./components/Header";
 import { PrimeReactProvider } from "primereact/api";
 import "primereact/resources/themes/lara-light-cyan/theme.css";
+import Footer from "./components/Footer";
 
 const chakra = Chakra_Petch({
   subsets: ["latin"],
@@ -27,6 +28,7 @@ export default function RootLayout({
         <PrimeReactProvider>
           <Header />
           {children}
+          <Footer />
         </PrimeReactProvider>
       </body>
     </html>

@@ -24,7 +24,7 @@ const AppScreen = ({ children, className, ...props }) => {
 AppScreen.Title = forwardRef(function AppScreenTitle({ children }, ref) {
   return (
     <div ref={ref} className="text-2xl text-white">
-      {children}
+      {/* {children} */}
     </div>
   );
 });
@@ -32,7 +32,7 @@ AppScreen.Title = forwardRef(function AppScreenTitle({ children }, ref) {
 AppScreen.Subtitle = forwardRef(function AppScreenSubtitle({ children }, ref) {
   return (
     <div ref={ref} className="text-sm text-gray-500">
-      {children}
+      {/* {children} */}
     </div>
   );
 });
