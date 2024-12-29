@@ -12,20 +12,20 @@ const MobileNav = () => {
       path: "/",
     },
     {
-      name: "Services",
-      path: "/services",
+      name: "Join us ",
+      path: "/",
     },
     {
-      name: "Work",
-      path: "/work",
+      name: "About us",
+      path: "/",
     },
     {
-      name: "Resume",
-      path: "/resume",
+      name: "Contact us",
+      path: "/",
     },
     {
-      name: "Contact",
-      path: "/contact",
+      name: "Partner with us",
+      path: "/",
     },
   ];
   const pathName = usePathname();
@@ -41,7 +41,7 @@ const MobileNav = () => {
         <div className="mt-32 mb-40 text-center text-2xl">
           <Link href={"/"}>
             <h1 className="tetx-4xl font-semibold">
-              Delidish<span className="text-accent">.</span>
+              SmartVest<span className="text-accent">.</span>
             </h1>
           </Link>
         </div>
