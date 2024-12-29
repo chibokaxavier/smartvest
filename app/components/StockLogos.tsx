@@ -121,7 +121,7 @@ export function DeviceArrowIcon() {
 }
 
 export function DeviceCardsIcon() {
-  let id = useId();
+  const id = useId();
 
   return (
     <svg viewBox="0 0 32 32" aria-hidden="true" >

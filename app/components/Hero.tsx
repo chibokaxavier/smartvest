@@ -18,7 +18,7 @@ const Hero = () => {
           </p>
           <p className="mt-6 text-lg text-gray-600">
             By tapping into the expertise of our network of industry
-            professionals, you'll gain precise guidance on when to make
+            professionals, you will gain precise guidance on when to make
             strategic purchases for maximum profit and when to sell to safeguard
             against significant losses.
           </p>
